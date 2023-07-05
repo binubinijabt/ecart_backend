@@ -1,0 +1,33 @@
+                     
+
+
+
+                     E-cart Server Creation
+                   --------------------------
+
+              1. Create Package.json - npm init -y      
+              2. Install Some libraries - npm i express cors mongoose dotenv 
+
+                  => dotenv - Environment variable are used to store app secret and configuration
+                     data which are retrieved by the running app when needed.
+                       TYPES
+                        => 1. System Environment Variable (s/m path)
+                        => 2. User Environment Variable (Admin)
+                        => 3. Runtime/Process Variable (Application running process)
+             3. Create .env file
+             4. Create .gitignore file 
+             5. Add node_modules and .env in .gitignore
+             6. Create index.js file
+             7. In index.js file,
+                   => Import express,cors.dotenv 
+                   => Create an app using express
+                   => Use cors and express.json() in server app 
+                   => Define port number   
+
+
+
+
+
+
+
+
